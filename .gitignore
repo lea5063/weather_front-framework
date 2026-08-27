@@ -1,0 +1,16 @@
+node_modules
+dist
+.env
+.env.*.local
+*.local
+
+# 툴이 생성하는 <script setup> 추출 산출물 (소스 아님)
+*.extracted.mjs
+
+# 사용하지 않는 Vite 스타터 스캐폴드 (실제 앱은 루트 src/ 이다)
+my-weather-app/
+
+# 에디터 / OS
+.DS_Store
+.vscode/*
+!.vscode/extensions.json

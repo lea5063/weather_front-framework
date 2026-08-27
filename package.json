@@ -1,0 +1,37 @@
+{
+  "name": "weather-component",
+  "version": "1.0.0",
+  "description": "Vue 3 + Vue Router + Pinia 기반 날씨 대시보드 (OpenWeatherMap / Last.fm / OpenStreetMap 연동).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:staging": "vite build --mode staging",
+    "build:production": "vite build --mode production",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"src/**/*.{js,vue}\" \"*.{js,json}\" \"server/**/*.js\" \"api/**/*.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.19.0",
+    "element-plus": "^2.14.5",
+    "leaflet": "^1.9.4",
+    "pinia": "^4.0.3",
+    "vue": "^3.5.41",
+    "vue-router": "^5.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "eslint": "^10.2.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-vue": "^10.8.0",
+    "globals": "^17.5.0",
+    "prettier": "^3.8.3",
+    "vite": "^8.2.2"
+  }
+}
